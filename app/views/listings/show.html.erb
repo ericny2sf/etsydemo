@@ -7,6 +7,7 @@
       <h3><%= @listing.name %><br></h3>
       <p><%= number_to_currency(@listing.price) %></p><br>
       <p><%= @listing.description %></p><br>   
+      <p><%= "Sold by #{@listing.user.name}" %></p>
   </div>
 </div>
 
